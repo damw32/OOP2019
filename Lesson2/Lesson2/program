@@ -1,0 +1,32 @@
+using System;
+
+public class ConsoleApp6
+{
+    static void Main(string[] args)
+    {
+        int haslo = 123456;
+        //int haslo2 = 12345;
+        while (true)
+        {
+            Console.WriteLine("Podaj haslo");
+            
+            int a = int.Parse(Console.ReadLine());
+            
+            if(a!=123456)
+            {
+                Console.WriteLine("Podaj ponownie");
+                
+            }
+            else
+            {
+                Console.WriteLine("Dobre haslo");
+            }
+            break;
+           
+        }
+        
+
+
+        Console.ReadKey();
+    }
+}
